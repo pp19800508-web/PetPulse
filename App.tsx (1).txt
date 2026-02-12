@@ -1,3 +1,0 @@
-import React, { useState } from 'react';
-import { AppTab, Pet, HealthRecord } from './types';
-// ... (此處下載將包含您提供的完整 App.tsx 內容)
