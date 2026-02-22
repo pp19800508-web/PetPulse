@@ -1,0 +1,9 @@
+{
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "name": "PetPulse AI",
+  "description": "全方位寵物健康伴侶"
+}
