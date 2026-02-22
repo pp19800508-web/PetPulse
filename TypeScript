@@ -1,0 +1,4 @@
+export type PetSpecies = 'Dog' | 'Cat' | 'Bird' | 'Rabbit' | 'Hamster' | 'Reptile' | 'Fish' | 'Other';
+export interface Pet { id: string; name: string; species: PetSpecies; breed: string; age: number; weight: number; avatar: string; }
+export interface HealthRecord { id: string; petId: string; type: 'Vaccination' | 'Medication' | 'Checkup' | 'Weight'; date: string; title: string; description: string; value?: number; }
+export enum AppTab { DASHBOARD = 'dashboard', RECORDS = 'records', AI_ADVICE = 'ai_advice', LIVE_VET = 'live_vet', VET_FINDER = 'vet_finder', NUTRITION = 'nutrition', PORTRAIT = 'portrait', AI_VIDEO = 'ai_video', SETTINGS = 'settings', PRIVACY = 'privacy' }
